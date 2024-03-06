@@ -13,7 +13,9 @@ function yesButton() {
 function noButton() {
     const messages = ["yo go study",
                         "you're bawling, not balling",
-                        "you miss 100% of the shots you don't take"];
+                        "you miss 100% of the shots you don't take",
+                        "it's a cook or get cooked world.\nand you ain't got a chef's hat",
+                        "AP, honor roll, all Fs -- you retarded"];
 
     window.alert(messages[Math.floor(Math.random() * messages.length)]);
 }
