@@ -1,38 +1,58 @@
 body {
-    margin: 40px;
-    background-color: #FADCD9;
-    color: white;
-    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: center;
+    font-size: 150%;
 }
 
 img {
-    border-radius: 20px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: auto;
+    max-width: 60%;
+
+    padding-bottom: 4%;
 }
 
 .center {
     text-align: center;
-    align-items: center;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
+    margin: 25%;
 }
 
-.myButton {
-    position: relative;
-    border-radius:20px;
-    justify-content: center;
+.images {
     align-items: center;
-    text-align: center; 
-    height: 80px;
-    width: 49%;
-    margin: 0;
-    padding: 0;
-    background: #F8AFA6;
+    margin: 6%
+}
+
+.homeButton {
+    background-color: black;
     border: none;
     outline: none;
-    font-size: 30px;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-    font-style: normal;
-    color:white;
-  }
+
+    color: aliceblue;
+    font-size: 400%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.goHomeButton {
+    background-color: black;
+    border: none;
+    outline: none;
+
+    position: fixed;
+    top: 2%;
+    left: 1%;
+
+    color: aliceblue;
+    text-align: top;
+    font-size: 200%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
