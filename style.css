@@ -35,8 +35,8 @@ img {
 
 .homeButton {
     background-color: black;
-    border-color: aliceblue;
-    border-width: 1px;
+    border: none;
+    outline: none;
 
     color: aliceblue;
     font-size: 400%;
