@@ -1,24 +1,24 @@
 // call main()
 window.onload = main;
 
-function homePage() {
-    window.location.href = "index.html";
+function calculate() {
+    let firstNumberHTML = document.getElementById("number1");
+    let firstNum = Number(firstNumberHTML.value);
+
+    let secondNumberHTML = document.getElementById("number2");
+    let secondNum = Number(secondNumberHTML.value);
+
+    const answerHTML = document.getElementById("answer");
+    answerHTML.innerText = "(answer is " + (firstNum + secondNum).toString() + ")";
+
+    const imageHTML = document.getElementById("imagePlaceholder");
+    const image = document.createElement('img');
+    image.src = 'hello_world.jpg';
+    image.alt = 'Hello World';
+    image.width = 550;
+    imageHTML.appendChild(image);
 }
 
-function photographyCollection() {
-    window.location.href = "photography.html";
+function main() {
+    document.getElementById("calculate").addEventListener("click", calculate);
 }
-
-
-/*
-
-function homeButton() {
-    const messages = ["good job :)",
-                        "get your money up not your funny up >:)",
-                        "balls hehe",
-                        "keep going"];
-
-    window.alert(messages[Math.floor(Math.random() * messages.length)]);
-}
-
-*/
