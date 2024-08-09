@@ -15,7 +15,7 @@ function calculate() {
     const image = document.createElement('img');
     image.src = 'hello_world.jpg';
     image.alt = 'Hello World';
-    image.width = 550;
+    image.style.width = '35%';
     imageHTML.appendChild(image);
 }
 
